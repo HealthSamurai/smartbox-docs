@@ -1,10 +1,24 @@
 # Table of contents
 
-## Getting Started
-
-* [Getting Started](getting-started.md)
-
-## Reference
-
-* [API](api.md)
-* [Release notes](release-notes.md)
+* [Overview](overview.md)
+* [Aidbox + FHIR App portal](aidbox-+-fhir-app-portal/README.md)
+  * [Getting started](aidbox-+-fhir-app-portal/getting-started/README.md)
+    * [Run Aidbox + FHIR Portal locally](aidbox-+-fhir-app-portal/getting-started/run-aidbox-+-fhir-portal-locally.md)
+    * [Run Aidbox + FHIR Portals on k8s](aidbox-+-fhir-app-portal/getting-started/run-aidbox-+-fhir-portals-on-k8s.md)
+    * [Migrate from Smartbox to Aidbox + FHIR App portal](aidbox-+-fhir-app-portal/getting-started/smartbox-to-aidbox-migration-guide.md)
+  * [Developer Sandbox](aidbox-+-fhir-app-portal/tutorials/developer-sandbox.md)
+  * [Admin Portal](aidbox-+-fhir-app-portal/tutorials/admin-portal.md)
+  * [FHIR App Gallery](aidbox-+-fhir-app-portal/tutorials/app-gallery.md)
+* [ONC Health IT Certification Program](providers-or-onc-health-it-certification-program/README.md)
+  * [(g)(10): Standardized API for Patient and Population Services](providers-or-onc-health-it-certification-program/g-10-standardized-api-for-patient-and-population-services/README.md)
+    * [Pass Inferno Tests with Aidbox](providers-or-onc-health-it-certification-program/g-10-standardized-api-for-patient-and-population-services/pass-inferno-tests-with-aidbox.md)
+    * [Pass Inferno Visual Inspection and Attestation](providers-or-onc-health-it-certification-program/g-10-standardized-api-for-patient-and-population-services/pass-inferno-visual-inspection-and-attestation.md)
+  * [(g)(9): Application access — all data request](providers-or-onc-health-it-certification-program/g-9-application-access-all-data-request.md)
+  * [(g)(7): Application Access - Patient Selection](providers-or-onc-health-it-certification-program/g-7-application-access-patient-selection.md)
+* [CMS-0057-F](CMS-0057-F/README.md)
+  * [Getting Started](CMS-0057-F/getting-started/README.md)
+    * [Run Aidbox + CMS App locally](CMS-0057-F/getting-started/run-aidbox-+-cms-app-locally.md)
+  * [Coverage Requirements Discovery (CRD)](CMS-0057-F/coverage-requirements-discovery-crd/README.md)
+    * [CDS Hooks API](CMS-0057-F/coverage-requirements-discovery-crd/cds-hooks-api.md)
+  * [Prior Authorization Support (PAS) API](CMS-0057-F/prior-authorization-support-pas-api.md)
+    * [Developer Sandbox Portal Flow Description](aidbox-+-fhir-app-portal/developer-sandbox.md)
