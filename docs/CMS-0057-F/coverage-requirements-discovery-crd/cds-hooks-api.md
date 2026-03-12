@@ -2,7 +2,7 @@
 
 ## Supported Operations
 
-All following CDS Hooks operations are NOT publicly accessible. If you want to access them from third party application read [Application/Client Management](https://docs.aidbox.app/docs/aidbox/access-control/identity-management/application-client-management) — configure Client resources for programmatic API access with OAuth 2.0 flows or Basic Auth.
+All following CDS Hooks operations are NOT publicly accessible. If you want to access them from third party application read [Application/Client Management](https://www.health-samurai.io/docs/aidbox/access-control/identity-management/application-client-management) — configure Client resources for programmatic API access with OAuth 2.0 flows or Basic Auth.
 
 ### Discovery
 

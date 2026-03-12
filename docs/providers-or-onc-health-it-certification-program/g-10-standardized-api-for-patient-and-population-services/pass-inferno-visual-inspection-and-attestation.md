@@ -11,7 +11,7 @@ description: >-
 Provided by certification buddy `Tests steps` require demonstrating the process of application registration for single patients. You should switch to the `Yes` option.
 
 {% hint style="info" %}
-Aidbox supports [registering SMART applications](https://docs.aidbox.app/docs/aidbox/access-control/authorization/smart-on-fhir/smart-client-authorization/smart-app-launch#register-smart-client)
+Aidbox supports [registering SMART applications](https://www.health-samurai.io/docs/aidbox/access-control/authorization/smart-on-fhir/smart-client-authorization/smart-app-launch#register-smart-client)
 {% endhint %}
 
 ## 9.10.02 Health IT Module demonstrated support for application registration for multiple patients
@@ -19,7 +19,7 @@ Aidbox supports [registering SMART applications](https://docs.aidbox.app/docs/ai
 Provided by certification buddy `Tests steps` require demonstrating the process of application registration for multiple patients. You should switch to the `Yes` option.
 
 {% hint style="info" %}
-Aidbox supports [registering SMART applications](https://docs.aidbox.app/docs/aidbox/access-control/authorization/smart-on-fhir/smart-client-authorization/smart-app-launch#register-smart-client)
+Aidbox supports [registering SMART applications](https://www.health-samurai.io/docs/aidbox/access-control/authorization/smart-on-fhir/smart-client-authorization/smart-app-launch#register-smart-client)
 {% endhint %}
 
 ## 9.10.03 Health IT Module demonstrated a graphical user interface for user to authorize FHIR resources

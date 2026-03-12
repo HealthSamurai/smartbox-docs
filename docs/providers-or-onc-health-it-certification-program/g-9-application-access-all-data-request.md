@@ -82,8 +82,8 @@ Date parameters must be provided as `YYYY-MM-DD`.
 
 ## References
 
-- [Aidbox C-CDA / FHIR Converter](https://docs.aidbox.app/docs/aidbox/modules/integration-toolkit/ccda-converter/)
-- [Producing C-CDA Documents](https://docs.aidbox.app/docs/aidbox/modules/integration-toolkit/ccda-converter/producing-c-cda-documents)
-- [Supported C-CDA Sections](https://docs.aidbox.app/docs/aidbox/modules/integration-toolkit/ccda-converter/sections/)
+- [Aidbox C-CDA / FHIR Converter](https://www.health-samurai.io/docs/aidbox/modules/integration-toolkit/ccda-converter/)
+- [Producing C-CDA Documents](https://www.health-samurai.io/docs/aidbox/modules/integration-toolkit/ccda-converter/producing-c-cda-documents)
+- [Supported C-CDA Sections](https://www.health-samurai.io/docs/aidbox/modules/integration-toolkit/ccda-converter/sections/)
 - [USCDI v3](https://isp.healthit.gov/united-states-core-data-interoperability-uscdi#uscdi-v3)
 - [C-CDA R2.1 Specification](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492)

@@ -8,7 +8,7 @@ When combined with Coverage Requirements Discovery (CRD) and Documentation Templ
 
 ## Supported Operations
 
-All following PAS operations are NOT publicly accessible. If you want to access them from third party application read [Application/Client Management](https://docs.aidbox.app/docs/aidbox/access-control/identity-management/application-client-management) — configure Client resources for programmatic API access with OAuth 2.0 flows or Basic Auth.
+All following PAS operations are NOT publicly accessible. If you want to access them from third party application read [Application/Client Management](https://www.health-samurai.io/docs/aidbox/access-control/identity-management/application-client-management) — configure Client resources for programmatic API access with OAuth 2.0 flows or Basic Auth.
 
 ### Claim/$submit
 
@@ -1222,7 +1222,7 @@ The CDex profile enforces a minimum of 5 elements in the `parameter` array. All 
 
 1. **Validation** — The Parameters resource is validated against the [CDex Parameters Submit Attachment profile](https://hl7.org/fhir/us/davinci-cdex/StructureDefinition-cdex-parameters-submit-attachment.html). Missing required parameters or invalid structure returns HTTP 422.
 2. **Claim Lookup** — The system searches for an existing Claim matching the `TrackingId` identifier and `AttachTo` use code. If no matching Claim is found, the request is rejected with HTTP 422. Unsolicited attachments (where no prior Claim exists) are not supported.
-3. **Cloud Storage Upload** — For `DocumentReference` resources containing inline base64 data (`content[].attachment.data`), the data is automatically uploaded to [cloud storage](https://docs.aidbox.app/docs/aidbox/file-storage/aws-s3). The base64 data is replaced with a URL reference, and the `size` field is populated.
+3. **Cloud Storage Upload** — For `DocumentReference` resources containing inline base64 data (`content[].attachment.data`), the data is automatically uploaded to [cloud storage](https://www.health-samurai.io/docs/aidbox/file-storage/aws-s3). The base64 data is replaced with a URL reference, and the `size` field is populated.
 4. **Content Persistence** — All attachment content resources are persisted in Aidbox via a FHIR transaction bundle.
 5. **Claim Association** — The Claim is updated with new `supportingInfo` entries referencing the persisted content resources. Each entry includes a fixed PAS-valid category code and an optional `code` from the Attachment's `Code` parameter.
 
